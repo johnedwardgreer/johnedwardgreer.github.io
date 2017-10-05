@@ -1,0 +1,145 @@
+html{
+	height: 100%;
+}
+
+
+body{
+	background-image:url("fire.jpg");
+	background-repeat:no-repeat;
+	background-size:150%;
+}
+
+ul#mainNav {
+
+	padding: 0;
+	list-style: none;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 60px; 
+        
+}
+#mainNav li {
+	float: left;
+	width: 14em;
+}
+
+#mainNav a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 15px;
+	border: 1px dashed #999999;
+	border-bottom: none;
+	display: block;
+	padding: 7px 5px 2px 30px;
+	background: #FFC640 url(link.png) no-repeat left center;
+}
+
+#mainNav a:hover {
+	font-weight: bold;
+	background: #B2F511 url(go.png) no-repeat 5px 50%;
+}
+
+/* special formatting for home page link */
+a#homeLink {
+	background: #FFC640 url(home.png) no-repeat 5px 52%;
+}
+
+
+#content{
+	width:800px;
+	margin: 20px auto; padding: 20px;
+        text-align: left; /* Counteract to IE/Win Hack */
+	border:0.8px solid #333;
+	background: #661E03;
+         }    
+
+#unique{
+	float:none;
+	display:block;
+	margin:0 auto;
+	padding:20px;
+	border:black solid 10px;
+}
+
+h1{
+color: #F5B232;
+padding-top:30px;
+text-align: center;
+margin-top: 15px;
+margin-left: 15px;
+margin-right: 15px;
+font-weight: bold; font-style:normal; font-variant:normal; font-size:24pt; font-family:Verdana;
+}
+
+h2{
+color:#F5B232;
+margin-top: 15px;
+margin-left: 15px;
+margin-right: 15px;
+font-weight: bold; font-style:normal; font-variant:normal; font-size:14pt; font-family:Verdana;
+}
+
+h3{
+color:#F5B232;
+margin-top: 5px;
+margin-left: 5px;
+margin-right: 5px;
+font-weight: bold; font-style:normal; font-variant:normal; font-size:14pt; font-family:Verdana;
+text-align: center;
+}
+
+h4{
+color:#F5B232;
+margin-top: 5px;
+margin-left: 5px;
+margin-right: 5px;
+font-weight: bold; font-style:normal; font-variant:normal; font-size:10pt; font-family:Verdana;
+text-align: center;
+}
+
+p{
+color: #F58832;
+text-indent: .2in;
+text-align: left;
+margin-top: 15px;
+margin-left: 15px;
+margin-right: 15px;
+font-weight: bold; font-style:normal; font-variant:normal; font-size:12pt; font-family:Verdana;
+}
+
+img{
+	float:right;
+	margin:30px 10px 10px 10px;
+	border: solid black 10px;
+}
+
+a{
+	color:#FFAE43;
+}
+
+a:hover { 
+color:#FFAA0A;
+text-decoration: underline;
+background-color: #FFEA0A;
+}
+
+address 
+{
+font-family: Perpetua, serif;
+font-size: 14pt;
+font-weight: bold;
+color: #000000;
+padding:40px 5px 5px 5px;
+}
+
+footer{
+	width: 100%;
+	height: 50px;
+	border-top: 1px solid #000000;
+	bottom: 0px;
+	left:0px;
+	text-align: center;
+	background: #000000;
+}
+
+.center {text-align: center;}
